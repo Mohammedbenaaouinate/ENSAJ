@@ -1,0 +1,252 @@
+/* Styling School certificate */
+
+#scholl_certificate {
+  border: 7px ridge rgba(100, 100, 100, 1);
+  border-radius: 0px;
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  padding: 40px;
+}
+#scholl_certificate .header-certificat {
+  border-bottom: 2px solid black;
+}
+#scholl_certificate #header_paragraphe p {
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+#scholl_certificate #certificate_title {
+  text-align: center;
+  margin-top: 90px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+#scholl_certificate #start_para {
+  text-indent: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+#scholl_certificate #student_information {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+#school_certificate_footer {
+  margin-top: 210px;
+}
+#school_certificate_footer p {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 12px;
+}
+.delete_edit_hover:hover {
+  background-color: #5352ed !important;
+}
+
+/* Styling Temprolrily WithDrown */
+#temporarily_withdrawn {
+  border: 7px ridge rgba(100, 100, 100, 1);
+  border-radius: 0px;
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  padding: 40px;
+}
+
+#temporarily_withdrawn .header-certificat {
+  border-bottom: 2px solid black;
+}
+
+#temporarily_withdrawn #header_paragraphe p {
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#temporarily_withdrawn #certificate_title {
+  text-align: center;
+  margin-top: 90px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+#temporarily_withdrawn #student_information,
+#temporarily_withdrawn #start_para {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+#temporarily_withdrawn_footer {
+  border-top: 2px solid black;
+  padding-top: 10px;
+  margin-top: 140px;
+  align-items: center;
+}
+#temporarily_withdrawn_footer p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Le style de la page de Convention de Stage */
+
+/* First Page  */
+
+#first-page {
+  border-radius: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#first-page .header-convention {
+  border-bottom: 2px solid black;
+}
+#first-page #header_paragraphe p {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, sans-serif;
+  margin-bottom: 0px !important;
+}
+#first-page .page-content #title {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, sans-serif;
+}
+#first-page .page-content #starting-text {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 16px;
+}
+#first-page .text-gras {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+#first-page .text-container {
+  border: 1px solid black;
+  padding-top: 10px;
+}
+#first-page .text-container p {
+  line-height: 9px;
+  font-size: 12px;
+  margin-bottom: 13px;
+}
+#first-page #first-table td {
+  border-right: 1px solid black;
+}
+#first-page .footer {
+  margin-top: 60px;
+  border-top: 1px solid black;
+}
+
+/* Second Page */
+#second-page {
+  margin-top: 10px;
+  border-radius: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#second-page .header-convention {
+  border-bottom: 2px solid black;
+}
+#second-page #header_paragraphe p {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, sans-serif;
+  margin-bottom: 0px !important;
+}
+#second-page .page-content {
+  text-align: justify;
+}
+#second-page .page-content p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 15px;
+}
+#second-page .page-content span {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+#second-page .signature {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+#second-page .signature-container {
+  border: 1px solid black;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+#second-page .signature-container .signature-para {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+#second-page .footer {
+  margin-top: 150px;
+  border-top: 1px solid black;
+}
+
+/* Styling The Table Of Absence */
+#absence_list table {
+  width: 80%;
+  margin: auto;
+}
+#absence_list .header-absencelist {
+  border-bottom: 2px solid black;
+}
+#absence_list .header-absencelist p {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, sans-serif;
+  margin-bottom: 0px !important;
+}
+#absence_list #classe_information p {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+#absence_list #dateandModule {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+table #table_header {
+  background-color: #bdc3c7;
+}
+#absence_list table,
+#absence_list table th,
+#absence_list table td {
+  border: 1px solid black;
+  padding: 0px;
+  padding-left: 8px;
+  text-align: start;
+  text-overflow: ellipsis;
+  font-size: 11px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: bold;
+}

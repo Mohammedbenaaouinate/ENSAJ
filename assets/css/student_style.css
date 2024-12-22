@@ -1,0 +1,62 @@
+.convention-label {
+  font-family: "Arial Rounded MT";
+  color: #212529;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.consigne {
+  font-family: "Arial Rounded MT";
+  color: #212529;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: center;
+}
+/* Styling School certificate */
+
+#scholl_certificate {
+  border: 7px ridge rgba(100, 100, 100, 1);
+  border-radius: 0px;
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  padding: 40px;
+}
+#scholl_certificate .header-certificat {
+  border-bottom: 2px solid black;
+}
+#scholl_certificate #header_paragraphe p {
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+#scholl_certificate #certificate_title {
+  text-align: center;
+  margin-top: 90px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+#scholl_certificate #start_para {
+  text-indent: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+#scholl_certificate #student_information {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+#school_certificate_footer {
+  margin-top: 210px;
+}
+#school_certificate_footer p {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 12px;
+}
+.delete_edit_hover:hover {
+  background-color: #5352ed !important;
+}
